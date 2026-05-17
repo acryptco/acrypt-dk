@@ -225,9 +225,9 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-3 gap-16 items-center">
           <div className="flex flex-col gap-8">
             {[
-              { stat: "1", label: "Published EPD" },
+              { stat: "EPD", label: "Environdec Published" },
               { stat: "3rd-party", label: "Verified" },
-              { stat: "ISO 14025", label: "· EN 15804" },
+              { stat: "ISO 14025", label: "EN 15804" },
             ].map((item) => (
               <div key={item.stat} className="flex items-baseline gap-4">
                 <span
