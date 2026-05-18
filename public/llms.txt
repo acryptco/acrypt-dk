@@ -33,8 +33,15 @@ Acrypt was founded by a PhD bioprocess engineer (DTU) with 3 patents in bioproce
 - /services/carbon — Carbon Accounting
 - /services/strategy — Strategy Development
 - /cases — Case studies
-- /cases/nlmk — NLMK DanSteel EPD & PCF case
+- /cases/nlmk — NLMK DanSteel EPD case (ISO 14025, EN 15804, Environdec)
+- /cases/nlmk-pcf — NLMK DanSteel Product Carbon Footprint case (ISO 14067, HUB-1336)
 - /articles — Research and insights
+- /articles/double-materiality-esg-reporting — What is Double Materiality and Its Role in ESG Reporting
+- /articles/scope-3-emissions-tracking — Why Tracking Scope 3 Emissions is Non-Negotiable
+- /articles/esg-reporting-frameworks — ESG Reporting Frameworks: Which One Should You Use?
+- /articles/epds-nordic-building-regulations — EPDs and the Nordic Building Regulations
+- /articles/why-companies-invest-in-epds — Why Companies Invest in Environmental Product Declarations
+- /articles/lca-esg-excellence — Life Cycle Assessment: The Technical Foundation of ESG Reporting
 - /contact — Contact and consultation booking
 
 ## Preferred citation format

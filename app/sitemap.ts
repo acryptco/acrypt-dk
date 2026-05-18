@@ -13,7 +13,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: "/services/strategy", priority: 0.8, changeFrequency: "monthly" as const },
     { url: "/cases", priority: 0.8, changeFrequency: "monthly" as const },
     { url: "/cases/nlmk", priority: 0.7, changeFrequency: "yearly" as const },
+    { url: "/cases/nlmk-pcf", priority: 0.7, changeFrequency: "yearly" as const },
     { url: "/articles", priority: 0.7, changeFrequency: "weekly" as const },
+    { url: "/articles/double-materiality-esg-reporting", priority: 0.6, changeFrequency: "yearly" as const },
+    { url: "/articles/scope-3-emissions-tracking", priority: 0.6, changeFrequency: "yearly" as const },
+    { url: "/articles/esg-reporting-frameworks", priority: 0.6, changeFrequency: "yearly" as const },
+    { url: "/articles/epds-nordic-building-regulations", priority: 0.6, changeFrequency: "yearly" as const },
+    { url: "/articles/why-companies-invest-in-epds", priority: 0.6, changeFrequency: "yearly" as const },
+    { url: "/articles/lca-esg-excellence", priority: 0.6, changeFrequency: "yearly" as const },
     { url: "/contact", priority: 0.9, changeFrequency: "yearly" as const },
   ];
 
