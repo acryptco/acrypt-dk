@@ -151,7 +151,7 @@ export default function Home() {
 
           <div className="flex items-center justify-center">
             <Image
-              src="/hero-lca.png"
+              src="/hero-lca-01.png"
               alt="LCA lifecycle diagram — 9 stages from raw material extraction to end of life"
               width={600}
               height={500}
