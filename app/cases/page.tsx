@@ -34,7 +34,7 @@ export default function CasesPage() {
           </div>
           <div className="flex items-center justify-center">
             <Image
-              src="/case.png"
+              src="/case_01.png"
               alt="Hands holding the NLMK DanSteel Environmental Product Declaration"
               width={600}
               height={750}

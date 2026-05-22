@@ -108,7 +108,7 @@ export default function NlmkCasePage() {
                   View EPD on Environdec →
                 </a>
                 <a
-                  href="/nlmkepd.pdf"
+                  href="/nlmkepd_0.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 text-sm font-semibold transition-opacity hover:opacity-80"
