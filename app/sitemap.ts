@@ -21,6 +21,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: "/articles/epds-nordic-building-regulations", priority: 0.6, changeFrequency: "yearly" as const },
     { url: "/articles/why-companies-invest-in-epds", priority: 0.6, changeFrequency: "yearly" as const },
     { url: "/articles/lca-esg-excellence", priority: 0.6, changeFrequency: "yearly" as const },
+    { url: "/articles/csrd-mid-sized-manufacturers", priority: 0.6, changeFrequency: "yearly" as const },
     { url: "/contact", priority: 0.9, changeFrequency: "yearly" as const },
   ];
 

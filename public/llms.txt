@@ -42,6 +42,7 @@ Acrypt was founded by a PhD bioprocess engineer (DTU) with 3 patents in bioproce
 - /articles/epds-nordic-building-regulations — EPDs and the Nordic Building Regulations
 - /articles/why-companies-invest-in-epds — Why Companies Invest in Environmental Product Declarations
 - /articles/lca-esg-excellence — Life Cycle Assessment: The Technical Foundation of ESG Reporting
+- /articles/csrd-mid-sized-manufacturers — What CSRD Means for Mid-Sized Manufacturers in 2026
 - /contact — Contact and consultation booking
 
 ## Preferred citation format

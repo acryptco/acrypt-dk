@@ -73,12 +73,12 @@ const articles = [
     external: true,
   },
   {
-    title: "What CSRD means for mid-sized Danish manufacturers in 2026",
+    title: "What CSRD Means for Mid-Sized Manufacturers in 2026",
     category: ["CSRD", "Regulation"],
     excerpt:
-      "A practical guide to CSRD obligations for mid-sized companies: what is required, what is in scope, and what needs to be in place before the first reporting deadline.",
-    status: "coming-soon" as const,
-    href: null,
+      "A practical guide to CSRD obligations for mid-sized European manufacturers: what is required, what is in scope, and what needs to be in place before the first reporting deadline.",
+    status: "published" as const,
+    href: "/articles/csrd-mid-sized-manufacturers",
   },
 ];
 
