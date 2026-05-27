@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -26,29 +27,41 @@ export default function CsrdMidSizedPage() {
           >
             ← All articles
           </Link>
-          <div className="max-w-3xl">
-            <div className="flex gap-2 mb-6">
-              {["CSRD", "Regulation"].map((c) => (
-                <span
-                  key={c}
-                  className="text-xs font-bold px-2 py-0.5 rounded"
-                  style={{ backgroundColor: "#F7F6F3", color: "#d4654a", fontFamily: "var(--font-jetbrains)" }}
-                >
-                  {c}
-                </span>
-              ))}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <div>
+              <div className="flex gap-2 mb-6">
+                {["CSRD", "Regulation"].map((c) => (
+                  <span
+                    key={c}
+                    className="text-xs font-bold px-2 py-0.5 rounded"
+                    style={{ backgroundColor: "#F7F6F3", color: "#d4654a", fontFamily: "var(--font-jetbrains)" }}
+                  >
+                    {c}
+                  </span>
+                ))}
+              </div>
+              <h1
+                className="text-4xl lg:text-5xl font-bold mb-6"
+                style={{ color: "#085041", fontFamily: "var(--font-playfair)" }}
+              >
+                What CSRD Means for Mid-Sized Manufacturers in 2026
+              </h1>
+              <p className="text-lg leading-relaxed" style={{ color: "#5F5E5A" }}>
+                A practical guide to CSRD obligations for mid-sized European
+                manufacturers: what is required, what is in scope, and what
+                needs to be in place before the first reporting deadline.
+              </p>
             </div>
-            <h1
-              className="text-4xl lg:text-5xl font-bold mb-6"
-              style={{ color: "#085041", fontFamily: "var(--font-playfair)" }}
-            >
-              What CSRD Means for Mid-Sized Manufacturers in 2026
-            </h1>
-            <p className="text-lg leading-relaxed" style={{ color: "#5F5E5A" }}>
-              A practical guide to CSRD obligations for mid-sized European
-              manufacturers: what is required, what is in scope, and what
-              needs to be in place before the first reporting deadline.
-            </p>
+            <div className="hidden lg:flex items-center justify-center">
+              <Image
+                src="/csrd.png"
+                alt="CSRD: Why Smart Companies Embrace Mandatory Sustainability Reporting"
+                width={600}
+                height={600}
+                priority
+                className="w-full max-w-lg rounded-2xl"
+              />
+            </div>
           </div>
         </div>
       </section>
